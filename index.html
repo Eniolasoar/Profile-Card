@@ -9,61 +9,71 @@
 <body>
   <main>
     <article class="profile-card" data-testid="test-profile-card" aria-label="User profile card">
-      <figure class="avatar">
-        <img
-          src="h"
-          alt="Profile picture of Eniola Anishe"
-          data-testid="test-user-avatar"
-        />
-      </figure>
+      <!-- Left Section -->
+      <div class="profile-left">
+        <figure class="avatar">
+          <img
+            src=""
+            alt="Profile picture of Eniola Anishe"
+            data-testid="test-user-avatar"
+          />
+        </figure>
 
-      <header>
-        <h2 data-testid="test-user-name">Eniola Anishe</h2>
-      </header>
+        <header>
+          <h2 data-testid="test-user-name">Eniola Anishe</h2>
+        </header>
 
-      <p data-testid="test-user-bio">
-        I am a creative and forward-thinking web developer passionate about crafting visually engaging and highly functional digital experiences. Known for blending design precision with innovative problem-solving, I builds responsive, user-focused interfaces that deliver real impact. Driven by excellence and purpose, I aim to create technology that not only works beautifully but also positively influences people and businesses.
-      </p>
+        <nav aria-label="Social media links">
+          <ul class="social-links" data-testid="test-user-social-links">
+            <li>
+              <a href="https://instagram.com/_enidev" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-facebook" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/eniola-anishe-678801254/" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-      <p class="time">
-        Current time (ms): <span id="time" data-testid="test-user-time"></span>
-      </p>
+      <!-- Right Section -->
+      <div class="profile-right">
+        <section class="bio-section" aria-labelledby="bio-title">
+          <h3 id="bio-title">Bio</h3>
+          <p data-testid="test-user-bio">
+            I am a creative and forward-thinking web developer passionate about crafting visually engaging and highly functional digital experiences. Known for blending design precision with innovative problem-solving, I build responsive, user-focused interfaces that deliver real impact. Driven by excellence and purpose, I aim to create technology that not only works beautifully but also positively influences people and businesses.
+          </p>
+        </section>
 
-      <nav aria-label="Social media links">
-        <ul class="social-links" data-testid="test-user-social-links">
-          <li>
-            <a href="https://instagram.com/_enidev" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-facebook" aria-label="Facebook">
-              <i class="fab fa-instagram-f"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/eniola-anishe-678801254/" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter" aria-label="Twitter">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-         
-        </ul>
-      </nav>
+        <p class="time">
+          Current time (ms): <span id="time" data-testid="test-user-time"></span>
+        </p>
 
-      <section aria-labelledby="hobbies-title">
-        <h3 id="hobbies-title">Hobbies</h3>
-        <ul data-testid="test-user-hobbies">
-          <li>Coding</li>
-          <li>Playing Video Games</li>
-          <li>Reading</li>
-        </ul>
-      </section>
+        <div class="lists-container">
+          <section aria-labelledby="hobbies-title" class="hobbies">
+            <h3 id="hobbies-title">Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Playing Video Games</li>
+              <li>Reading</li>
+            </ul>
+          </section>
 
-      <section aria-labelledby="dislikes-title">
-        <h3 id="dislikes-title">Dislikes</h3>
-        <ul data-testid="test-user-dislikes">
-          <li>Noise</li>
-          <li>Bad Design</li>
-          <li>Clutter</li>
-        </ul>
-      </section>
+          <section aria-labelledby="dislikes-title" class="dislikes">
+            <h3 id="dislikes-title">Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Noise</li>
+              <li>Bad Design</li>
+              <li>Clutter</li>
+            </ul>
+          </section>
+        </div>
 
-      <button class="message-btn">Message me</button>
+        <button class="message-btn">Message me</button>
+      </div>
     </article>
   </main>
 
