@@ -38,8 +38,8 @@
   }
   
   .avatar img {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 3px solid rgba(255, 255, 255, 0.4);
   }
@@ -81,10 +81,10 @@
     transition: transform 0.3s;
   }
   
-  .social-links a:focus,
-  .social-links a:hover {
+  .social-links li:focus,
+  .social-links li:hover {
     transform: scale(1.2);
-    outline: 2px solid white;
+  
     border-radius: 50%;
   }
   
