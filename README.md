@@ -69,7 +69,7 @@ or run:
 open index.html
 ```
 
-Folder Structure
+## Folder Structure
 ```bash
 profile-card/
 ├── index.html
@@ -80,12 +80,8 @@ profile-card/
 ├── test.jpg
 └── README.md
 ```
-## Author
-
-Eniola Anishe
-Creative and forward-thinking web developer passionate about crafting visually engaging and highly functional digital experiences.
 
 
-License
+## License
 
 This project is open source and available under the MIT License.
