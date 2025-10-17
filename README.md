@@ -73,12 +73,13 @@ open index.html
 ```bash
 profile-card/
 ├── index.html
-├── style.css
-├── script.js
 ├── instagram.png
 ├── linkedin.png
-├── test.jpg
-└── README.md
+├── profile.jpg
+├── README.md
+├── screenshot.png
+├── script.js
+└── style.css
 ```
 
 
