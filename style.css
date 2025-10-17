@@ -59,6 +59,9 @@ p {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
+.bio-section p{
+  word-wrap: break-word;
+}
 
 .time {
   font-size: 0.9rem;
@@ -83,11 +86,18 @@ p {
   text-decoration: none;
   transition: transform 0.3s, color 0.3s;
 }
+.social-links a:focus{
+  outline: 1px solid #a8e0ff;
+  border-radius: 10px;
+}
 
 .social-links li:hover,
 .social-links li:focus {
+height: 30px;
   transform: scale(1.2);
   color: #a8e0ff;
+  outline: 1px solid #a8e0ff;
+  border-radius: 10px;
 }
 
 section h3 {
@@ -110,14 +120,7 @@ section ul {
   flex-wrap: wrap; /* ensures proper wrapping on smaller screens */
 }
 
-.hobbies,
-.dislikes {
-  flex: 1;
-  min-width: 130px; /* ensures they don't shrink too small */
-  text-align: left;
-  margin-top:15px;
-  padding-left: 30px;
-}
+
 
 .message-btn {
   margin-top: 2rem;
@@ -133,9 +136,10 @@ section ul {
 
 .message-btn:hover,
 .message-btn:focus {
+  outline:1px solid #a8e0ff;
   background: #f0f4ff;
   transform: translateY(-2px);
-  outline: none;
+ 
 }
 
 /* --- Tablet & Larger --- */
