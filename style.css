@@ -111,13 +111,13 @@ section ul {
   text-align: left;
 }
 
-/* --- Mobile: Align hobbies and dislikes side by side --- */
+
 .lists-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 1.5rem;
-  flex-wrap: wrap; /* ensures proper wrapping on smaller screens */
+  flex-wrap: wrap; 
 }
 
 
