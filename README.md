@@ -74,18 +74,25 @@ open index.html
 ## Folder Structure
 ```bash
 profile-card/
-├── index.html
-├── about.html
-├── contact.html
-├── style.css
-├── about.css
-├── contact.css
-├── script.js
-├── contact.js
+├── css/
+│   ├── style.css
+│   ├── about.css
+│   └── contact.css
+│
+├── html/
+│   ├── index.html
+│   ├── about.html
+│   └── contact.html
+│
 ├── images/
 │   ├── profile.jpg
 │   ├── instagram.png
 │   └── linkedin.png
+│
+├── js/
+│   ├── script.js
+│   └── contact.js
+│
 ├── screenshot.png
 └── README.md
 
