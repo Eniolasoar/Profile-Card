@@ -1,6 +1,6 @@
 # Profile Card
 
-A responsive, accessible, and elegant **profile card** built with **HTML, CSS, and JavaScript** — showcasing social links, hobbies, dislikes, and a dynamic time display.
+A responsive, accessible, and elegant profile card application built with HTML, CSS, and JavaScript — now extended into a multi-page experience featuring About Me and Contact pages.
 
 **Live Demo:** [https://enidevhngstageonetask.netlify.app](https://enidevhngstageonetask.netlify.app)
 
@@ -20,6 +20,8 @@ A responsive, accessible, and elegant **profile card** built with **HTML, CSS, a
 - Real-time clock (milliseconds)
 - Social links with hover and focus effects
 - Uses `data-testid` attributes for test automation
+- About Me page with reflective sections (bio, goals, growth areas, etc.)
+- Contact Me page with: Form validation (HTML + JS) , Error and success messages with ARIA support and Accessible labels and focus states
 
 ---
 
@@ -73,13 +75,20 @@ open index.html
 ```bash
 profile-card/
 ├── index.html
-├── instagram.png
-├── linkedin.png
-├── profile.jpg
-├── README.md
-├── screenshot.png
+├── about.html
+├── contact.html
+├── style.css
+├── about.css
+├── contact.css
 ├── script.js
-└── style.css
+├── contact.js
+├── images/
+│   ├── profile.jpg
+│   ├── instagram.png
+│   └── linkedin.png
+├── screenshot.png
+└── README.md
+
 ```
 
 
