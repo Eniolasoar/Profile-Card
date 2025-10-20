@@ -3,10 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Profile Card</title>
+  <title>Profile Card | Eniola Anishe</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="navbar">
+    <h1>My Profile</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="nav-link" aria-label="Home page">Home</a></li>
+        <li><a href="about.html" class="nav-link" aria-label="About me page">About Me</a></li>
+        <li><a href="contact.html" class="nav-link" aria-label="Contact page">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <main>
     <article class="profile-card" data-testid="test-profile-card" aria-label="User profile card">
       <div class="profile-left">
@@ -28,7 +39,7 @@
           <ul class="social-links" data-testid="test-user-social-links">
             <li>
               <a href="https://instagram.com/_enidev" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-instagram" aria-label="Instagram">
-               <img src="instagram.png" alt="Instagram icon" width="30" height="30"/>
+                <img src="instagram.png" alt="Instagram icon" width="30" height="30"/>
               </a>
             </li>
             <li>
@@ -38,6 +49,10 @@
             </li>
           </ul>
         </nav>
+
+       
+          <a href="about.html" class="btn" data-testid="test-nav-about" aria-label="Learn more about me">More Details</a>
+      
       </div>
 
       <div class="profile-right">
