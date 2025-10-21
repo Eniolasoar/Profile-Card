@@ -35,23 +35,9 @@ A responsive, accessible, and elegant profile card application built with HTML, 
 
 ## Test Identifiers
 
-Each element includes a `data-testid` attribute for reliable DOM testing.
+Some important elements includes a `data-testid` attribute for reliable DOM testing.
 
-| Element | Description | `data-testid` |
-|----------|--------------|----------------|
-| Profile Card | Wrapper for all profile content | `test-profile-card` |
-| User Avatar | Profile image of the user | `test-user-avatar` |
-| User Name | User's full name | `test-user-name` |
-| Social Links Container | Holds all social link items | `test-user-social-links` |
-| Instagram Link | Instagram profile link | `test-user-social-instagram` |
-| LinkedIn Link | LinkedIn profile link | `test-user-social-linkedin` |
-| User Bio | User’s short biography | `test-user-bio` |
-| Current Time | Displays current time in milliseconds | `test-user-time` |
-| Hobbies List | List of user hobbies | `test-user-hobbies` |
-| Dislikes List | List of user dislikes | `test-user-dislikes` |
-| Message Button | Action button to message the user | `test-message-btn` *(add if testing this element)* |
 
----
 
 ## How to Run Locally
 
