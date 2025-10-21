@@ -118,12 +118,13 @@ section ul {
   align-items: flex-start;
   gap: 1.5rem;
   flex-wrap: wrap; 
+  margin-bottom: 40px;
 }
 
 
 
 .message-btn {
-  margin-top: 2rem;
+
   padding: 0.8rem 1.5rem;
   background: white;
   color: #0073e6;
@@ -149,6 +150,7 @@ section ul {
   text-decoration: none;
   color: #0073e6;
   font-weight: 600;
+  margin-top: 2rem;
 }
 
 .action-links {
@@ -173,7 +175,7 @@ section ul {
 }
 
 .navbar h1 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #fff;
   letter-spacing: 1px;
 }
@@ -181,10 +183,11 @@ section ul {
 .navbar nav ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .navbar nav a {
+  font-size: 14px;
   color: #e8f0ff;
   text-decoration: none;
   font-weight: 600;
@@ -215,6 +218,10 @@ section ul {
   background: #f0f4ff;
   transform: translateY(-2px);
   outline: 1px solid #a8e0ff;
+}
+
+article{
+  margin-top: 40px;
 }
 
 @media (min-width: 768px) {
