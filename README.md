@@ -65,7 +65,6 @@ profile-card/
 │   ├── about.css
 │   └── contact.css
 │
-├── html/
 │   ├── index.html
 │   ├── about.html
 │   └── contact.html
